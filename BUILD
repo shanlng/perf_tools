@@ -78,3 +78,10 @@ cc_binary(
         ":perf_tools",
     ],
 )
+
+filegroup(
+    name = "all_bcc_tools",
+    srcs = [
+        "//bcc_tools:bcc_tools",
+    ],
+)
